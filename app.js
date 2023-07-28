@@ -32,9 +32,9 @@ app.get("/", (req, res) => {
 //   res.send(":id URI에 정상적으로 반환되었습니다.");
 // });
 
-// app.get("/", (req, res) => {
-//   res.send("Hello World!");
-// });
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
 
 //localhost:3000/api -> goodsRouter
 // app.use("/api", goodsRouter);
